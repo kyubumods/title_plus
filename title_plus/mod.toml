@@ -1,0 +1,10 @@
+id = "title_plus"
+name = "CWAP title"
+version = "0.1.1"
+authors = ["Penchev"]
+kyubu = "^1.1"
+sides = ["client"]
+description = "Cube World Alpha Plus title screen"
+
+[native]
+client = "bin/title_plus.dll"

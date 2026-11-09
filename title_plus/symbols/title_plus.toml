@@ -1,0 +1,10 @@
+# Symbols defined by this mod. Names must start with "title_plus:".
+build = "cube-0x51EA955E"
+
+[[symbol]]
+name = "title_plus:plasma::D3D9Drawing::draw"
+address = 0x68AB70
+signature = "55 8B EC 81 EC 7C 01 00 00 A1 78 AA 76 00 33 C5"
+convention = "thiscall"
+status = "candidate"
+notes = "vtable slot 2 of plasma::D3D9Drawing (0x7225F8): args (node, colour); draws the shape's buffers with the engine's shaders and the node's display colour times `colour`"

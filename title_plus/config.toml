@@ -1,0 +1,30 @@
+[options.delay_seconds]
+type = "float"
+default = 3.0
+min = 0.0
+max = 60.0
+description = "Seconds the logo stays blue after it first appears."
+
+[options.fade_seconds]
+type = "float"
+default = 2.0
+min = 0.1
+max = 30.0
+description = "Seconds the red takes to spread over the logo."
+
+[options.plus]
+type = "bool"
+default = true
+description = "Drop the plus sign beside the logo once the logo is red all over."
+
+[options.shine]
+type = "bool"
+default = true
+description = "Send a tilted white line, a shine, across the logo once the plus sign has landed."
+
+[options.shine_seconds]
+type = "float"
+default = 0.7
+min = 0.2
+max = 10.0
+description = "Seconds the shine takes to cross the logo."
